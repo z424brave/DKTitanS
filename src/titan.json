@@ -1,0 +1,20 @@
+{
+  "name" : "Titan Unified CMS",
+  "version" : "1.0.0",
+  "author" : "Martin Haynes",
+  "mount" : "/",
+  "static" : "assets",
+  "modules" : [
+    "welcome",
+    "mongo",
+    "error",
+    "mail",
+    "user",
+    "auth",
+    "language",
+    "node/node",
+    "node/content",
+    "lexicon/lexicon",
+    "lexicon/tag"
+  ]
+}

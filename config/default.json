@@ -1,0 +1,17 @@
+{
+  "DB" : {
+    "module"  : "mongo",
+    "host"    : "localhost",
+    "db"      : "titan",
+    "seed"    : true
+  },
+  "roles" : {
+      "user" : ["user", "admin"]
+  },
+  "secrets" : {
+      "session" : {
+        "token" : "this.is.not.a.secret",
+        "expires" : "30 days"
+      }
+  }
+}
